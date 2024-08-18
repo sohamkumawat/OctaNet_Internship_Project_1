@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+}
+.logo {
+  display: flex;
+  padding: 10px;
+}
+.logoimg {
+  width: 250px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.nav li {
+  font-size: 20px;
+  font-weight: 550;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: #e63946;
+}
+a:visited {
+  text-decoration: none;
+  color: #e63946;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: blanchedalmond;
+}
+
+.mid {
+  background-image: url("/Group\ 3.png");
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.midtext {
+  align-self: flex-start;
+  font-size: 140px;
+  color: white;
+  margin: 25px;
+}
+.discover {
+  font-size: 40px;
+  padding: 5px 10px 5px 10px;
+  color: #e63946;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-self: center;
+  margin: 25px;
+}
+.info {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutus {
+  padding: 10px;
+  margin: 15px;
+  font-size: 25px;
+  color: #e63946;
+}
